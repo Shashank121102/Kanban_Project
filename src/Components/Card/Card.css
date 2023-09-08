@@ -1,0 +1,93 @@
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 271px;
+    box-shadow: 0px 4px 6px -1px #ccc;
+}
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.user-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.card-middle {
+    margin-bottom: 15px;
+    padding: 10px -10px 10px 0px;
+    display: flex;
+    align-items: top;
+    gap: 4px;
+    height: 50px;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card-bottom .component-1 {
+    padding: 2px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-bottom .component-2 {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-bottom .component-2 p {
+    color: gray;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.logo-pic{
+    margin-top: 2px;
+    height: 12px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.card-desc{
+    font-size: 12px;
+    align-items: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.card-title{
+    color: gray;
+    font-size: 14px;
+    align-items: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.icon{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+}

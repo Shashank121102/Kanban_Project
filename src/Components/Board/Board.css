@@ -1,0 +1,28 @@
+.board {
+    min-width: 250px;
+}
+
+.board-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.board-top-left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.logo-pic{
+    height: 14px;
+    width: 18px;
+    border-radius: 50%;
+}

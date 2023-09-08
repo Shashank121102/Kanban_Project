@@ -1,0 +1,39 @@
+.drop-down {
+    display: flex;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.dropdown-options {
+    position: absolute;
+    background-color: #fff;
+    height: 100px;
+    width: 270px;
+    padding-right: 17px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px -1px #ccc;
+}
+
+.dd-option {
+    margin-top: 17px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dd-option label {
+    color: gray
+}
+
+.dd-option select {
+    padding: 3px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 4px 6px -1px #ccc;
+}
